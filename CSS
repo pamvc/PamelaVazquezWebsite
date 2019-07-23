@@ -1,0 +1,148 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*MY CODE*/
+
+<link href='https://fonts.googleapis.com/css?family=Abril Fatface' rel='stylesheet'>
+
+/*the container should be about a quarter or half of the page since I dont want the background image to take up all of the browser. But the issue is that nothing will show up as a background in this container, not even a background color. I figured that if I can first get a background color showing up in this container then I could change it to a background image*/
+  .container {
+        background-color: aquamarine;
+        background-size: 50%;
+        margin: 100px;
+        height: 25%;
+        
+            }
+
+        #top{
+         color: whitesmoke; 
+        font-family: 'Nosifer', cursive;
+         position: absolute; 
+         top: 50%; 
+        left: 50%; 
+        transform: translateX(-50%)translateY(-40%); 
+        font-size: 50px;
+        }
+
+        #bottom{
+            color: white;
+            font-size: 50px;
+            margin:0;
+            padding:0;
+            text-align: center;
+            font-family: 'Nosifer', cursive;
+            position: absolute; 
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%)translateY(-50%);
+        }
+
+        .content{
+        background-color: cornflowerblue;
+        position: 50px;
+        margin: 50px 50px 50px 50px;
+        width: 50%;
+        }
+
+        
+ 
