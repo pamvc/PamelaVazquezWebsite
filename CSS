@@ -2,7 +2,10 @@
 /*MY CODE*/
 
 /*problems I have run into: 
-The pink background container with the class name "name" changes size based on the window size. Which is good but I also need the background to change size based on the text that is on top of it. If you make the window smaller you will see that there comes a point where the pink background is smaller than the text*/
+The pink background container with the class name "name" changes size based on the window size. 
+Which is good but I also need the background to change size based on the text that is on top of it. 
+If you make the window smaller you will see that there comes a point where the pink background is smaller than the text
+PROBLEM IS FIXED! */
 
 
 .DRAWING{
@@ -24,10 +27,12 @@ The pink background container with the class name "name" changes size based on t
    
 }
 
-.name{
+.DRAWING > div{
     background-color: #fea49f;
     position: center;
     padding: 25px;
+    overflow: auto;
+    min-width: 15vw;
     
 }
 
