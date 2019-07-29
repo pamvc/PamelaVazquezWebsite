@@ -1,11 +1,6 @@
 
 /*MY CODE*/
 
-/*problems I have run into: 
-The pink background container with the class name "name" changes size based on the window size. Which is good but I also need the background to change size based on the text that is on top of it. If you make the window smaller you will see that there comes a point where the pink background is smaller than the text
-PROBLEM IS FIXED! */
-
-
 .DRAWING{
     background-image: url(Drawings_copy%20copy.JPG);
     background-color: plum;
@@ -52,21 +47,21 @@ PROBLEM IS FIXED! */
     font-size: 20px;
     font-family: 'Fascinate', cursive;
     background-color: plum;
+    text-align: center;
     padding: 150px;
     margin-top: 35px;
-    text-align: center;
-    align-items: center;
     clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
     min-width: 8vw;
 }
 
-.favorites li{
-    padding-bottom: 15px;
-    padding-left: 1em;
+ul{
+    list-style-position: inside;
+    text-align: center;
+    padding-right: 4vw;
 }
+.favorites li{
+    padding-bottom: 10px;
 
-li span{
-    padding-left: -0.5em;
 }
 
         
