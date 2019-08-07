@@ -1,8 +1,12 @@
 
 /*MY CODE*/
 
+/*problems I have run into: 
+all fixed */
+
+
 .DRAWING{
-    background-image: url(//raw.githubusercontent.com/pamvc/PamelaVazquezWebsite/master/Drawings_copy%20copy.jpg);
+    background-image: url(Drawings_copy%20copy.JPG);
     background-color: plum;
     padding: 200px; 
     background-size: 50vw;
@@ -33,14 +37,29 @@
 
         .content{
         background-color: white;
+        padding-bottom: 200px;
         }
 
 .paragraph{
-    padding-bottom: 25px;
+    padding-bottom: 60px;
     text-align: center;
-    font-size: 20px;
+    font-size: 50px;
     font-family: 'Fascinate', cursive;
     color: black;
+}
+
+.content ul{
+    margin-left: 15vw;
+}
+
+.content li{
+    float: left;
+    padding: 2vw;
+}
+
+.bar-image{
+    border: 5px solid #021a40;
+    clip-path: circle(70px at center);
 }
 
 .favorites{
@@ -64,5 +83,14 @@ ul{
 
 }
 
-        
- 
+footer{
+    font-size: 20px;
+    font-family: 'Fascinate', cursive;
+    background-color: plum;
+    text-align: center;
+    padding: 50px;
+    
+    
+}
+
+     
