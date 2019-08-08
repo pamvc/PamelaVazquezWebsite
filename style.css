@@ -11,7 +11,7 @@ all fixed */
     padding: 200px; 
     background-size: 50vw;
     position: relative;
-    clip-path: polygon(0 62%, 0% 0%, 100% 0%, 100% 62%, 51% 91%);
+    -webkit-clip-path: polygon(0 62%, 0% 0%, 100% 0%, 100% 62%, 51% 91%);
     
 }
 
@@ -59,7 +59,7 @@ all fixed */
 
 .bar-image{
     border: 5px solid #021a40;
-    clip-path: circle(70px at center);
+    -webkit-clip-path: circle(70px at center);
 }
 
 .favorites{
@@ -69,7 +69,7 @@ all fixed */
     text-align: center;
     padding: 150px;
     margin-top: 35px;
-    clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
+    -webkit-clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
     min-width: 8vw;
 }
 
