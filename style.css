@@ -57,6 +57,94 @@ all fixed */
     padding: 2vw;
 }
 
+.favorites{
+    font-size: 30px;
+    font-family: 'Fascinate', cursive;
+    background-color: plum;
+    text-align: center;
+    padding: 500px;
+    position:relative;
+    top: -250px;
+    -webkit-clip-path: polygon(50% 50%, 100% 30%, 100% 75%, 50% 100%, 0% 75%, 0 30%);
+    height: 50px;
+    min-width: 8vw;
+
+}
+
+.projects{
+    transform: translateX(20px);
+}
+.FirstBoxSecondPage{
+    font-family: 'Fascinate', cursive;
+    background-color: lightcyan;
+    padding: 95px;
+    top: -125px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 25px;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+   
+}
+
+.SecondBoxSecondPage{
+    font-family: 'Fascinate', cursive;
+    background-color: lightpink;
+    padding: 95px; 
+    top: -125px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 25px; 
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+  writing-mode: vertical-lr;
+  text-orientation: upright;  
+}
+
+.ThirdBoxSecondPage{
+    font-family: 'Fascinate', cursive;
+    background-color: plum;
+    padding: 95px; 
+    top: -125px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 25px; 
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+  writing-mode: vertical-lr;
+  text-orientation: upright; 
+}
+
+.FourthBoxSecondPage{
+    font-family: 'Fascinate', cursive;
+    background-color: ffd599;
+    padding: 95px; 
+    top: -125px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 25px; 
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+  writing-mode: vertical-lr;
+  text-orientation: upright; 
+}
+
+.FifthBoxSecondPage{
+    font-family: 'Fascinate', cursive;
+    background-color: fdfd96;
+    padding: 95px; 
+    top: -125px;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 25px; 
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+  writing-mode: vertical-lr;
+  text-orientation: upright; 
+}
+
 .bar-image{
     display: inline-block;
     position: relative;
@@ -78,35 +166,16 @@ all fixed */
   clip-path: circle(70px at center);
 }
 
-.favorites{
+.contact{
     font-size: 20px;
+    padding: 25px;
     font-family: 'Fascinate', cursive;
-    background-color: plum;
     text-align: center;
-    padding: 150px;
-    margin-top: 35px;
-    -webkit-clip-path: polygon(50% 0%, 100% 38%, 100% 100%, 0 100%, 0% 38%);
-    min-width: 8vw;
-}
-
-ul{
-    list-style-position: inside;
-    text-align: center;
-    padding-right: 4vw;
-}
-.favorites li{
-    padding-bottom: 10px;
-
-}
-
-footer{
-    font-size: 20px;
-    font-family: 'Fascinate', cursive;
-    background-color: plum;
-    text-align: center;
-    padding: 50px;
-    
+    background-color: #FBFBF8;
+    top: -50px;
+    transform: translateY(150px);
     
 }
 
+     
      
