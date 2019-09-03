@@ -85,7 +85,7 @@ all fixed */
     -webkit-writing-mode: vertical-lr;
     -ms-writing-mode: tb-lr;
   writing-mode: vertical-lr;
-  text-orientation: upright;
+  -webkit-text-orientation: upright;
     transition: .5s;
     position: relative;
     overflow: hidden;
@@ -103,7 +103,7 @@ all fixed */
     -webkit-writing-mode: vertical-lr;
     -ms-writing-mode: tb-lr;
   writing-mode: vertical-lr;
-  text-orientation: upright; 
+  -webkit-text-orientation: upright; 
     transition: .5s;
     position: relative;
     overflow: hidden;
@@ -120,7 +120,7 @@ all fixed */
     -webkit-writing-mode: vertical-lr;
     -ms-writing-mode: tb-lr;
   writing-mode: vertical-lr;
-  text-orientation: upright; 
+  -webkit-text-orientation: upright; 
     transition: .5s;
     position: relative;
     overflow: hidden;
@@ -137,7 +137,7 @@ all fixed */
     -webkit-writing-mode: vertical-lr;
     -ms-writing-mode: tb-lr;
   writing-mode: vertical-lr;
-  text-orientation: upright; 
+  -webkit-text-orientation: upright; 
     transition: .5s;
     position: relative;
     overflow: hidden;
@@ -154,7 +154,7 @@ all fixed */
     -webkit-writing-mode: vertical-lr;
     -ms-writing-mode: tb-lr;
   writing-mode: vertical-lr;
-  text-orientation: upright; 
+  -webkit-text-orientation: upright; 
     transition: .5s;
     position: relative;
     overflow: hidden;
