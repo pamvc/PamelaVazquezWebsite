@@ -201,4 +201,12 @@ all fixed */
     
 }
 
+.inputBox{
+    height: 50px;
+    padding: 7px;
+    border-width:medium;
+    border-style: solid;
+    border-color: black;
+}
+
      
